@@ -1,0 +1,116 @@
+.emc-container {
+    background-color: #ffffff;
+    display: flex;
+    height: fit-content;
+    border-radius: 20px;
+    border: 2px solid #00712D;
+}
+
+.emc-left-navbar {
+    position: relative;
+    left: -12px;
+    width: 220px;
+    background-color: #D5ED9F;
+    padding: 15px;
+    border-right: 2px solid #004D1E;
+    border-radius: 17px 0 0 17px;
+    color: white;
+    border: 2px solid #00712D;
+}
+
+.emc-right-form {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.emc-form-layout {
+    width: auto;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.emc-form-group {
+    margin-bottom: 15px;
+}
+
+.emc-form-label {
+    font-weight: bold;
+    color: #004D1E;
+}
+
+.emc-topic {
+    text-align: center;
+    color: #007B3D;
+    margin-bottom: 45px;
+}
+
+.emc-form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 550px;
+    height: 20px;
+}
+
+.emc-button-group {
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.emc-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.emc-btn-primary {
+    font-weight: bold;
+    background-color: #007B3D;
+    color: white;
+}
+
+.emc-btn-primary:hover {
+    font-weight: bold;
+    background-color: #1ea361;
+    color: white;
+}
+
+.emc-btn-secondary {
+    font-weight: bold;
+    margin-top: auto;
+    height: max-content;
+    background-color: #007B3D;
+    color: white;
+}
+
+.emc-form-control1 {
+    height: 22px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 550px;
+}
+
+.emc-form-control2 {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 550px;
+}
+
+.emc-form-control3 {
+    height: 39px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 568px;
+}

@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading "Green Guard Solutions" [level=4] [ref=e7]
+          - heading "The Sustainable E-Waste Management System" [level=6] [ref=e8]
+        - paragraph [ref=e10]: "Contact: +94 456 7890"
+      - tablist [ref=e14]:
+        - tab "Home" [selected] [ref=e15] [cursor=pointer]
+        - tab "Our Services" [ref=e16] [cursor=pointer]
+        - tab "About Us" [ref=e17] [cursor=pointer]
+        - tab "Schedule Pickups" [ref=e18] [cursor=pointer]
+        - tab "Contact us" [ref=e19] [cursor=pointer]
+    - generic [ref=e24]:
+      - generic [ref=e28]:
+        - link "DashBoard" [ref=e29] [cursor=pointer]:
+          - /url: /truck
+        - link "Add Trucks" [ref=e30] [cursor=pointer]:
+          - /url: /addTruck
+        - link "All Trucks" [ref=e31] [cursor=pointer]:
+          - /url: /getAllTruck
+        - link "Maintenance Costs" [ref=e32] [cursor=pointer]:
+          - /url: /truckCost
+        - link "Fuel Costs" [ref=e33] [cursor=pointer]:
+          - /url: /truckFuelCost
+        - link "Calculate Cost" [ref=e34] [cursor=pointer]:
+          - /url: /CalculateMaintainenceCost
+      - generic [ref=e35]:
+        - heading "Truck Manager Dashboard" [level=3] [ref=e36]:
+          - text: Truck Manager
+          - heading "Dashboard" [level=1] [ref=e37]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "Truck Requests Status" [level=3] [ref=e40]
+            - generic [ref=e42]:
+              - img [ref=e43]:
+                - generic [ref=e48]:
+                  - generic [ref=e50]: All Requests
+                  - generic [ref=e52]: Assigned
+                  - generic [ref=e54]: Scheduled
+                - generic [ref=e56]:
+                  - generic [ref=e58]: "0"
+                  - generic [ref=e60]: "1"
+                  - generic [ref=e62]: "2"
+                  - generic [ref=e64]: "3"
+                  - generic [ref=e66]: "4"
+              - list [ref=e68]:
+                - listitem [ref=e69]:
+                  - img [ref=e70]
+                  - text: count
+          - generic [ref=e72]:
+            - heading "Truck Status" [level=3] [ref=e73]
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - list [ref=e78]:
+                - listitem [ref=e79]:
+                  - img [ref=e80]
+                  - text: Active Trucks
+                - listitem [ref=e82]:
+                  - img [ref=e83]
+                  - text: Inactive Trucks
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - strong [ref=e88]: "Request ID:"
+              - text: R01
+            - generic [ref=e89]:
+              - strong [ref=e90]: "Request Date:"
+              - text: 2025-08-31
+            - generic [ref=e91]:
+              - strong [ref=e92]: "Truck Capacity:"
+              - text: 1900 Kg
+            - generic [ref=e93]:
+              - strong [ref=e94]: "Pickup Location:"
+              - text: No.15, main street, Colombo, Sri Lanka
+            - generic [ref=e95]:
+              - strong [ref=e96]: "Request Status:"
+              - text: Assigned
+            - strong [ref=e97]: "Priority: High"
+            - button "Allocate Truck" [disabled] [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - strong [ref=e101]: "Request ID:"
+              - text: R02
+            - generic [ref=e102]:
+              - strong [ref=e103]: "Request Date:"
+              - text: 2025-08-31
+            - generic [ref=e104]:
+              - strong [ref=e105]: "Truck Capacity:"
+              - text: 2000 Kg
+            - generic [ref=e106]:
+              - strong [ref=e107]: "Pickup Location:"
+              - text: No.10, Sub street, Colombo, Sri Lanka
+            - generic [ref=e108]:
+              - strong [ref=e109]: "Request Status:"
+              - text: Assigned
+            - strong [ref=e110]: "Priority: High"
+            - button "Allocate Truck" [disabled] [ref=e111]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - strong [ref=e114]: "Request ID:"
+              - text: R03
+            - generic [ref=e115]:
+              - strong [ref=e116]: "Request Date:"
+              - text: 2025-08-30
+            - generic [ref=e117]:
+              - strong [ref=e118]: "Truck Capacity:"
+              - text: 1800 Kg
+            - generic [ref=e119]:
+              - strong [ref=e120]: "Pickup Location:"
+              - text: No.20, main street, Colombo, Sri Lanka
+            - generic [ref=e121]:
+              - strong [ref=e122]: "Request Status:"
+              - text: Requested
+            - strong [ref=e123]: "Priority: High"
+            - button "Allocate Truck" [ref=e124] [cursor=pointer]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - strong [ref=e127]: "Request ID:"
+              - text: R04
+            - generic [ref=e128]:
+              - strong [ref=e129]: "Request Date:"
+              - text: 2025-09-02
+            - generic [ref=e130]:
+              - strong [ref=e131]: "Truck Capacity:"
+              - text: 1900 Kg
+            - generic [ref=e132]:
+              - strong [ref=e133]: "Pickup Location:"
+              - text: No.16, main street, Colombo, Sri Lanka
+            - generic [ref=e134]:
+              - strong [ref=e135]: "Request Status:"
+              - text: Requested
+            - strong [ref=e136]: "Priority: Medium"
+            - button "Allocate Truck" [ref=e137] [cursor=pointer]
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - img "My Logo" [ref=e143]
+        - paragraph [ref=e144]: We are dedicated to sustainable e-waste management, ensuring a cleaner and greener future.
+        - generic [ref=e145]:
+          - link [ref=e146] [cursor=pointer]:
+            - /url: https://facebook.com
+            - img [ref=e147]
+          - link [ref=e149] [cursor=pointer]:
+            - /url: https://twitter.com
+            - img [ref=e150]
+          - link [ref=e152] [cursor=pointer]:
+            - /url: https://instagram.com
+            - img [ref=e153]
+      - generic [ref=e156]:
+        - heading "Contact Us" [level=5] [ref=e157]
+        - paragraph [ref=e158]: 23 Green Street, Eco City, Earth
+        - paragraph [ref=e159]: support@greenguard.com
+        - paragraph [ref=e160]: +1 234 567 890
+      - generic [ref=e161]:
+        - separator [ref=e162]
+        - paragraph [ref=e163]: Ⓒ 2021 Green Guard Solutions. All rights reserved. Design and developed by Green Guard Solutions
+  - generic [ref=e164]: "0"
+```

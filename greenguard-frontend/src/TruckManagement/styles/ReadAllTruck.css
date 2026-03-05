@@ -1,0 +1,160 @@
+
+
+.readTrucks-container {
+    border: 2px solid #00712D;
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    min-height: auto;
+    padding: 30px;
+}
+
+.readTrucks-wrapper {
+}
+
+.readTrucks-content {
+}
+
+.readTrucks-header {
+    color: #007B3D;
+    margin-bottom: 20px;
+}
+
+.readTrucks-input {
+    height: 20px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.readTrucks-searchBtn,
+.readTrucks-resetBtn,
+.readTrucks-viewBtn,
+.readTrucks-deleteBtn,
+.readTrucks-generateBtnAlt,
+.readTrucks-generateBtn {
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.readTrucks-searchBtn,
+.readTrucks-generateBtn {
+    background-color: #007B3D;
+}
+
+.readTrucks-generateBtn {
+    height: 45px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.readTrucks-searchBtn:hover,
+.readTrucks-generateBtn:hover {
+    background-color: #15a3b9;
+}
+
+.readTrucks-generateBtnAlt {
+    height: 45px;
+    margin-top: 0;
+    width: 300px;
+    margin-left: 15px;
+    background-color: #007B3D;
+}
+
+.readTrucks-generateBtnAlt:hover {
+    background-color: #15a3b9;
+}
+
+.readTrucks-resetBtn {
+    background-color: #007B3D;
+}
+
+.readTrucks-resetBtn:hover {
+    background-color: #15a3b9;
+}
+
+.readTrucks-viewBtn {
+    font-weight: bold;
+    background-color: #007B3D;
+}
+
+.readTrucks-viewBtn:hover {
+    background-color: #15a3b9;
+}
+
+.readTrucks-deleteBtn {
+    font-weight: bold;
+    background-color: #D9534F;
+}
+
+.readTrucks-deleteBtn:hover {
+    background-color: #975d5b;
+}
+
+.readTrucks-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.readTrucks-th {
+    background-color: #007B3D;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+.readTrucks-table td {
+    padding: 12px;
+    text-align: left;
+    color: #333;
+}
+
+.readTrucks-status {
+    font-weight: bold;
+    color: #007B3D;
+}
+
+.readTrucks-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.readTrucks-error {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .readTrucks-wrapper {
+        flex-direction: column;
+    }
+
+    .readTrucks-content {
+        padding: 20px;
+    }
+
+    .readTrucks-input {
+        width: 100%;
+    }
+
+    .readTrucks-table {
+        font-size: 12px;
+    }
+
+    .readTrucks-table th,
+    .readTrucks-table td {
+        padding: 8px;
+    }
+}

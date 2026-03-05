@@ -1,0 +1,143 @@
+
+.read-req-table-container {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.read-req-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.ReadAllTruck-Outline{
+    flex-grow: 1;
+    padding: 10px 10px;
+    height: auto;
+    width: 110%;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #00712D;
+}
+
+.read-req-table th {
+    background-color: #00712D;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.read-req-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.read-req-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.read-req-status {
+    color: #d39e00;
+    font-weight: bold;
+}
+
+.read-req-action-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.read-req-edit-btn,
+.read-req-delete-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: auto;
+}
+
+.read-req-edit-btn {
+    background-color: #ffc107;
+    color: black;
+}
+
+.read-req-edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.read-req-delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.read-req-delete-btn:hover {
+    background-color: #c82333;
+}
+
+.read-req-search-bar {
+    height: auto;
+    display: flex;
+    justify-content:left;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.read-req-search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.read-req-search-btn,
+.read-req-reset-btn,
+.read-req-report-btn {
+    margin-top: auto;
+    font-weight: bold;
+    width: auto;
+    height: 36px;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.read-req-search-btn:hover,
+.read-req-reset-btn:hover {
+    background-color: #27ae60;
+}
+
+.read-req-report-btn:hover{
+    background-color: rgb(3, 42, 133);
+}
+.read-trucksReq-title {
+    text-align: center;
+    color: #004D1E;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.read-req-report-btn {
+    background-color:#27588d;
+}
+
+.read-req-search-btn {
+    background-color: #029039;
+}
+
+.read-req-reset-btn {
+    background-color: #029039;
+}
+
+.read-req-reset-btn:hover {
+    background-color: #004f07;
+}
+

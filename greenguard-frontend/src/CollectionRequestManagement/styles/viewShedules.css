@@ -1,0 +1,165 @@
+.view-schedules-wrapper {
+    padding: 20px;
+}
+
+.view-schedules-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Table Container */
+.view-schedules-table-container {
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+.view-schedules-request-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Headers */
+.view-schedules-request-table th {
+    background-color: #00712D;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Rows */
+.view-schedules-request-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Styling */
+.view-schedules-request-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Request Status Styles */
+.view-schedules-status-pending {
+    color: #d39e00;
+    font-weight: bold;
+}
+
+/* Action Bar Styling */
+.view-schedules-action-bar {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.view-schedules-edit-btn,
+.view-schedules-delete-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Edit Button */
+.view-schedules-edit-btn {
+    background-color: #ffc107;
+    color: black;
+    width: 70px;
+}
+
+.view-schedules-Outline{
+    flex-grow: 1;
+    padding: 10px 10px;
+    height: auto;
+    width: 110%;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #00712D;
+}
+
+.view-schedules-edit-btn:hover {
+    background-color: #e0a800;
+    color: #ddd;
+}
+
+/* Delete Button */
+.view-schedules-delete-btn {
+    background-color: #dc3545;
+    color: white;
+    width: 70px;
+}
+
+.view-schedules-delete-btn:hover {
+    background-color: #c82333;
+}
+
+.view-schedules-title {
+    text-align: center;
+    color: #004D1E;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+/* Search Bar */
+.view-schedules-search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: left;
+}
+
+.view-schedules-search-input {
+    width: 250px;
+    height: 25px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.view-schedules-search-btn,
+.view-schedules-reset-btn,
+.view-schedules-report-btn {
+    font-size: 14px;
+    font-weight: bold;
+    height: 36px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.view-schedules-search-btn,
+.view-schedules-reset-btn {
+    background-color: #029039;
+}
+
+.view-schedules-search-btn:hover,
+.view-schedules-reset-btn:hover {
+    background-color: #004f07;
+}
+
+.view-schedules-reset-btn {
+    background-color: #029039;
+}
+
+.view-schedules-report-btn:hover{
+    background-color:rgb(3, 42, 133);;
+}
+
+.view-schedules-report-btn{
+    
+    background-color:#27588d;
+}
+/* Report Buttons Section */
+.view-schedules-report-btns {
+    margin-top: 30px;
+    text-align: right;
+}

@@ -1,0 +1,132 @@
+
+.formlayout2{
+    margin-left: 20%;
+    width: 800px;
+    height: 750px;
+    margin-top: 2%;
+    border: 2px solid black;
+    background-color: rgb(213, 247, 222);
+    border-radius: 10px;
+
+}
+
+.formDiv2{
+    margin-top: 2%;
+    margin-left: 100px;
+    width: 500px;
+    text-align:left;
+}
+/* Outer container */
+.outerDiv {
+    display: flex; /* Use Flexbox for layout */
+    width: 100%;
+    height: auto; /* Full height */
+    background-color: #636050; /* Light green background */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevents content from spilling over rounded corners */
+}
+
+/* Navbar section */
+.innerDiv1 {
+    width: 200px; /* Adjust width as needed */
+    background-color: #D5ED9F; /* Green background */
+    padding: 10px;
+    border-right: 2px solid #004D1E; /* Slightly darker green border */
+    border-radius: 10px 0 0 10px; /* Rounded corners on the left side only */
+    color: white; /* Ensure text inside navbar is white for visibility */
+    border: 2px solid #00712D;
+}
+
+/* Content section */
+.innerDivR {
+    flex-grow: 1; /* Takes remaining space */
+    padding: 20px;
+    text-align: center; /* Centers the text */
+    background-color: #ffffff; /* ✅ Updated background */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the right side only */
+    border: 2px solid #00712D;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .outerDiv {
+        flex-direction: column; /* Stack items on small screens */
+    }
+
+    .innerDiv1 {
+        width: 100%; /* Full width on mobile */
+        border-right: none;
+        border-bottom: 2px solid #ffffff; /* Separate navbar */
+    }
+}
+
+/* Navbar */
+.NavBar {
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+.navColor {
+    background-color: #00712D;
+}
+
+/* Navbar Image */
+.ImageNav {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px; /* Adjust height as needed */
+    background-image: url("../Images/Profile.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px; /* Optional rounded corners */
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+/* Navbar Links */
+.nav-link {
+    border-radius: 5px;
+    width: 100%;
+    text-align: center; /* Center text */
+    font-weight: bold;
+    color: #00712D !important; /* Change text color */
+    background-color: transparent; /* Default background */
+    border-left: 4px solid transparent; /* Optional styling */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50px; /* Adjust button height */
+}
+
+/* Change button background on hover */
+.nav-link:hover {
+    background-color: #00712D !important; /* Green hover effect */
+    color: #ffffff !important;
+}
+
+/* ✅ Active Navbar Button */
+.nav-link.active {
+    background-color: #00712D !important; /* ✅ Updated active background */
+    color: white !important;
+    border-left: 4px solid #004D1E; /* Darker green border for emphasis */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .outerDiv {
+        flex-direction: column; /* Stack items on small screens */
+        border-radius: 10px; /* Apply rounded corners for mobile */
+    }
+
+    .innerDiv1 {
+        width: 100%; /* Full width on mobile */
+        border-right: none;
+        border-bottom: 2px solid #FFFBEC; /* Dark green separator */
+        border-radius: 10px 10px 0 0; /* Rounded corners at the top */
+    }
+
+    .innerDivR {
+        border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+    }
+}

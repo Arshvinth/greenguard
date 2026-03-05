@@ -1,0 +1,162 @@
+.maintCalc-col1Div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.maintCalc-outerDiv {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.CalcMain-btn-danger{
+    background-color: rgb(242, 52, 18);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
+
+.CalcMain-btn-success{
+    background-color:#05b45c;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
+
+.CalcMain-btn-danger:hover{
+    background-color:darkred;
+}
+
+.CalcMain-btn-success:hover{
+    background-color:#00712D;
+}
+
+.maintCalc-form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    height: 20px;
+}
+
+.maintCalc-form-control2 {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 318px;
+    height: 38px;
+}
+
+.maintCalc-innerDiv1 {
+    width: auto;
+    background-color: #D5ED9F;
+    padding: 20px;
+    border-right: 2px solid #004D1E;
+    border-radius: 10px 0 0 10px;
+}
+
+.maintCalc-innerDivR {
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #00712D;
+    border-radius: 0 10px 10px 0;
+}
+
+.maintCalc-formlayout {
+    flex-grow: 1;
+    background-color: #dedddd9c;  
+    border-radius: 10px 10px 10px 10px;
+    min-height: auto;
+    padding: 30px;
+}
+
+.CalCost-form-label {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: left;
+    color: #007B3D;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.marginCalMaint{
+    margin-top: 85px;
+    margin-left: 8px;
+}
+
+.maintCalc-tableW {
+    width: 100%;
+}
+
+.maintCalc-tableLeft,
+.maintCalc-tableRight {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.maintCalc-btnPadding {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007B3D;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 5px;
+}
+
+.maintCalc-btnPadding:hover {
+    background-color: #05b45c;
+}
+
+.maintCalc-popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintCalc-popupContent {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #555;
+    width: 350px;
+    text-align: center;
+}
+
+.maintCalc-emailTrigger {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.maintCalc-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.maintCalc-header {
+    color: #007B3D;
+    margin-bottom: 20px;
+}

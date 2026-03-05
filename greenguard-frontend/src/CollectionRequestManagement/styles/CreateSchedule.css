@@ -1,0 +1,134 @@
+.cs-outer {
+    display: flex;
+}
+
+.cs-left {
+    flex: 1;
+}
+
+.cs-right {
+    flex: 3;
+}
+
+.cs-form-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cs-title {
+    color: #00712D;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cs-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cs-label {
+    text-align: justify;
+    color: #00712D;
+    font-weight: bold;
+    margin: 5px 0 5px;
+}
+
+.cs-input,
+.cs-textarea,
+.cs-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.cs-textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.cs-select {
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cs-button {
+    font-weight: bold;
+    align-self: center;
+    width: 250px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #00712D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cs-button:hover {
+    color: #ffffff;
+    background-color: #009534;
+}
+
+.cs-hint-message {
+    text-align: justify;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.cs-error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.cs-checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cs-sms-input {
+    margin-top: 10px;
+}
+
+.Csched-outerDiv{
+    display: flex;
+    width: 100%;
+    height: auto; 
+    background-color: #636050;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.Csched-innerDiv1{
+    width: 200px;
+    background-color: #D5ED9F; 
+    padding: 10px;
+    border-right: 2px solid #004D1E; 
+    border-radius: 10px 0 0 10px; 
+    color: white; 
+    border: 2px solid #00712D;
+}
+
+.Csched-innerDivR{
+    flex-grow: 1; 
+    padding: 20px;
+    text-align: center; 
+    background-color: #ffffff; 
+    border-radius: 0 10px 10px 0; 
+    border: 2px solid #00712D;
+}

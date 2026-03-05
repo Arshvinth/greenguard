@@ -1,0 +1,105 @@
+.col1Div {
+    display: flex;
+}
+
+.outerDiv {
+    display: flex;
+    width: 100%;
+}
+
+.innerDiv1 {
+    background-color: #d5ed9f;
+    color: white;
+    min-height: auto;
+}
+
+.innerDivR {
+    width: 80%;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+/* Card container with 2 cards per row */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Individual card styling */
+.card {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Label styling */
+.card label {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Button styling */
+.allocate-btn {
+    font-weight: bold;
+    margin-left: auto;
+    width: 200px;
+    background-color: #00712d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.allocate-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive: Make cards full-width on smaller screens */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on small screens */
+    }
+}
+
+.allocate-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+
+  .charts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: nowrap;
+}
+
+.chart-box {
+    width: 45%;
+    min-width: 300px;
+    margin: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,202 @@
+.fuelContainer {
+    border: 2px solid #00712D;
+    flex-grow: 1;
+    background-color: #ffffff;  
+    border-radius: 10px 10px 10px 10px;
+    min-height: auto;
+    padding: 30px;
+}
+
+.fuelHeaderSection {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.fuelTitle {
+    text-align: left;
+    color: #007B3D;
+    margin-bottom: 25px;
+}
+
+.fuelCostTable {
+    margin-bottom: 15px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fuelHeader {
+    background-color: #007B3D;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+.fuelCostTable td {
+    padding: 12px;
+    text-align: left;
+    color: #333;
+}
+
+.fuelStatusCell {
+    font-weight: bold;
+    color: #007B3D;
+}
+.fuelCostEditBtn{
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px 20px;
+    background-color: #005F2D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.VF-generateBtn2,
+.VF-generateBtn3 {
+    margin-top: 15px;
+    height: 45px;
+    font-weight: bold;
+    padding: 8px 13px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin:8px;;
+    width: 250px;
+    background-color: #007B3D;
+}
+
+.fuelCostsearchBtn,
+.fuelCostresetBtn{
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.fuelCostsearchBtn {
+    background-color: #007B3D;
+}
+
+.fuelCostsearchBtn:hover {
+    background-color: #15a3b9;
+}
+
+.fuelCostresetBtn {
+    background-color: #007B3D;
+}
+
+.fuelCostresetBtn:hover {
+    background-color: #15a3b9;
+}
+
+
+.FuelCostGenerateBtn3 {
+    height: 45px;
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.FuelCostGenerateBtn3:hover{
+    background-color: #15a3b9;
+}
+
+.FuelCostGenerateBtn2 {
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.FuelCostGenerateBtn:hover {
+    background-color: #005F2D;
+}
+
+.FuelCosttextInput {
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.VF-generateBtn2:hover,
+.VF-generateBtn3:hover {
+    background-color: #15a3b9;
+}
+
+.fuelCostEditBtn:hover{
+    background-color: #05b155;
+}
+
+.fuelDeleteBtn {
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fuelDeleteBtn:hover {
+    background-color: #C9302C;
+}
+
+.fuelCostTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.fuelError {
+    color: red;
+    margin-top: 10px;
+}
+
+.fuelNoData {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .fuelCostTable {
+        font-size: 12px;
+    }
+
+    .fuelCostTable th,
+    .fuelCostTable td {
+        padding: 8px;
+    }
+}

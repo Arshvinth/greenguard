@@ -1,0 +1,116 @@
+.amc-container {
+    background-color: #ffffff;
+    display: flex;
+    height: fit-content;
+    border-radius: 20px;
+    border: 2px solid #00712D;
+}
+
+.amc-left-navbar {
+    position: relative;
+    left: -12px;
+    width: 220px;
+    background-color: #D5ED9F;
+    padding: 15px;
+    border-right: 2px solid #004D1E;
+    border-radius: 17px 0 0 17px;
+    color: white;
+    border: 2px solid #00712D;
+}
+
+.amc-right-form {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.amc-form-layout {
+    width: 800px;
+    max-width: 550px;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.amc-form-group {
+    margin-bottom: 15px;
+}
+
+.amc-form-label {
+    font-weight: bold;
+    color: #004D1E;
+}
+
+.amc-topic {
+    color: #007B3D;
+    margin-bottom: 45px;
+    margin-left: 130px;
+}
+
+.amc-form-control {
+    padding: 8px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 520px;
+}
+
+.amc-button-group {
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.amc-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.amc-btn-primary {
+    font-weight: bold;
+    background-color: #007B3D;
+    color: white;
+}
+
+.amc-btn-primary:hover {
+    font-weight: bold;
+    background-color: #1ea361;
+    color: white;
+}
+
+.amc-btn-secondary {
+    font-weight: bold;
+    margin-top: auto;
+    height: max-content;
+    background-color: #007B3D;
+    color: white;
+}
+
+.amc-form-control1 {
+    height: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 520px;
+}
+
+.amc-form-control2 {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 520px;
+}
+
+.amc-form-control3 {
+    height: 40px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 535px;
+}

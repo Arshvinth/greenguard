@@ -1,0 +1,164 @@
+/* 
+.form-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time-select-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .time-select-group select {
+    padding: 6px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    min-width: 70px;
+  }
+
+  
+.hint-message {
+    text-align: left;
+    color: #555;
+    font-size: 14px;
+    padding-top: 0%;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: #00712D;
+    margin-top: 5px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #00712D;
+    text-align: left;
+    margin: 10px 8px 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+button {
+    align-self: center;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00712D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    color: #333;
+    background-color: #D5ED9F;
+}
+
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.input-container input {
+    width: 470px;
+    padding-right: 35px;
+}
+
+.unit-label {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.selectDiv {
+    width: 470px;
+    align-self: center;
+    font-weight: bolder;
+    text-align: center;
+    border-color: #bdc9d3;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .sms-input {
+    margin-top: 10px;
+  }
+  
+  .create-truck-innerDivR{
+    flex-grow: 1; 
+    padding: 20px;
+    text-align: center; 
+    background-color: #ffffff;
+    border-radius: 0 10px 10px 0; 
+    border: 2px solid #00712D;
+}
+
+.create-truck-innerDiv1{
+    width: 200px; 
+    background-color: #D5ED9F; 
+    padding: 10px;
+    border-right: 2px solid #004D1E; 
+    border-radius: 10px 0 0 10px; 
+    color: white;
+    border: 2px solid #00712D;
+}
+
+.create-truck-outerDiv{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #636050;
+    border-radius: 10px; 
+    overflow: hidden;
+} */

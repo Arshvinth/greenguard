@@ -1,0 +1,176 @@
+.truckCostContainer {
+    border: 2px solid #00712D;
+    flex-grow: 1;
+    background-color: #ffffff;  
+    border-radius: 10px 10px 10px 10px;
+    min-height: auto;
+    padding: 30px;
+}
+
+.truckCostTitle {
+    text-align: center;
+    color: #007B3D;
+    margin-bottom: 40px;
+}
+
+.truckCostEditBtn{
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px 20px;
+    background-color: #005F2D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.truckCostEditBtn:hover{
+    background-color: #05b155;
+}
+
+
+.trucktextInput {
+    margin-bottom: 25px;
+    height: 20px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.truckCostsearchBtn,
+.truckCostresetBtn{
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.truckCostsearchBtn {
+    background-color: #007B3D;
+}
+
+.truckCostsearchBtn:hover {
+    background-color: #15a3b9;
+}
+
+.truckCostresetBtn {
+    background-color: #6c757d;
+}
+
+.truckCostresetBtn:hover {
+    background-color: #5a6268;
+}
+
+
+.truckCostTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.truckCostHeader {
+    background-color: #007B3D;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+.truckCostTable td {
+    padding: 12px;
+    text-align: left;
+    color: #333;
+}
+
+.truckCostStatusCell {
+    font-weight: bold;
+    color: #007B3D;
+}
+
+.truckCostDeleteBtn {
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.truckCostDeleteBtn:hover {
+    background-color: #C9302C;
+}
+
+.truckCostGenerateBtn {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.truckCostGenerateBtn2 {
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #007B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.truckCostGenerateBtn:hover {
+    background-color: #005F2D;
+}
+
+.truckCostGenerateBtn2:hover{
+    background-color: #005F2D;
+}
+
+.truckCostTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.truckCostError {
+    color: red;
+    margin-top: 10px;
+}
+
+.truckCostNoData {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .truckCostTable {
+        font-size: 12px;
+    }
+
+    .truckCostTable th,
+    .truckCostTable td {
+        padding: 8px;
+    }
+
+    .truckCostGenerateBtn {
+        width: 100%;
+    }
+}

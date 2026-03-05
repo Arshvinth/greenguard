@@ -1,0 +1,143 @@
+.truckDetail-col1Div {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.truckDetail-outerDiv {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.truckDetail-innerDiv1 {
+    width: 220px;
+    background-color: #D5ED9F;
+    padding: 20px;
+    border-right: 2px solid #004D1E;
+    border-radius: 10px 0 0 10px;
+}
+
+.truckDetail-innerDivR {
+    border: 2px solid #00712D;
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.truckOuterWrapper {
+    display: flex;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.truckSideNavWrapper {
+    flex: 0 0 220px;
+    background-color: #ffffff;
+}
+
+.truckDetailsWrapper {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.truckForm {
+    width: 450px;
+    max-width: 600px;
+    background: #f0f0f0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.truckInput {
+    width: 420px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.truckErrorText {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.truckStatusLabel {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ViewTruckLabel{
+    font-weight: bold;
+    color: #004D1E;
+}
+
+.truckUpdateBtn {
+    margin-left: 350px;
+    padding: 10px 20px;
+    background-color: #007B3D;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.truckUpdateBtn:hover {
+    background-color: #15a3b9;
+}
+
+.truckActionButtons {
+    margin-top: 20px;
+    display: contents;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.truckCostBtn, .truckFuelBtn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+.truckCostBtn {
+    background-color: #17a2b8;
+}
+
+.truckCostBtn:hover {
+    background-color: #117a8b;
+    transform: scale(1.05);
+}
+
+.truckFuelBtn {
+    margin-top: inherit;
+    background-color: #28a745;
+}
+
+.truckFuelBtn:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+.truckDetailsError {
+    color: red;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

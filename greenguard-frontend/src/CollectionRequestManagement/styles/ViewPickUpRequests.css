@@ -1,0 +1,120 @@
+.pickup-req-table-container {
+    border-radius: 10px;
+    width: 105%;
+    margin: 20px 20px;
+    overflow-x: auto;
+}
+
+.pickup-req-table {
+    border-radius: 10px;
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.pickup-req-table th {
+    background-color: #00712D;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.pickup-req-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.pickup-req-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pickup-req-status {
+    color: #d39e00;
+    font-weight: bold;
+}
+
+.pickup-req-action-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.pickup-req-allocate-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    background-color: #00712D;
+    color: white;
+    width: 100px;
+}
+
+.pickup-req-allocate-btn:hover {
+    background-color: #3b8941;
+}
+
+.View-Pick-title {
+    text-align: center;
+    color: #004D1E;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.viewPickupReq-Outline{
+    flex-grow: 1;
+    padding: 10px 10px;
+    height: auto;
+    width: 110%;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #00712D;
+}
+
+.pickup-req-allocate-btn:hover:enabled {
+    background-color: #3b8941;
+}
+
+.pickup-req-search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: left;
+}
+
+.pickup-req-search-input {
+    margin-bottom: 20px;
+    height: 25px;
+    margin-top: auto;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.pickup-req-search-btn,
+.pickup-req-reset-btn {
+    font-weight: bold;
+    height: 36px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #029039;
+    color: white;
+    cursor: pointer;
+    font-size: 15px ;
+}
+
+.pickup-req-search-btn:hover,
+.pickup-req-reset-btn:hover {
+    background-color: #004f07;
+}
+
+.pickup-req-reset-btn {
+    font-weight: bold;
+    background-color: #029039;
+}

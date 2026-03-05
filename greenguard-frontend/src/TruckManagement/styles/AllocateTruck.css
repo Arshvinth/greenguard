@@ -1,0 +1,148 @@
+.allocate-truck-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.allocate-truck-outer {
+    border: 2px solid #00712D;
+    flex-grow: 1;
+    background-color: #ffffff;  
+    border-radius: 10px 10px 10px 10px;
+}
+
+.allocate-truck-inner {
+    flex-grow: 1;
+    background-color: #F5F5F5;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.allocate-truck-content h2 {
+    color: #007B3D;
+    margin-bottom: 20px;
+}
+
+.allocate-truck-input {
+    height: 35px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.allocate-truck-btn {
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007B3D;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 5px;
+}
+
+.allocate-truck-btn:hover {
+    background-color: #0ab358;
+}
+
+.allocate-truck-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.allocate-truck-table th,
+.allocate-truck-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.allocate-truck-table th {
+    background-color: #007B3D;
+    color: white;
+    font-weight: bold;
+}
+
+.allocate-truck-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.allocate-truck-table td {
+    color: #333;
+}
+
+.allocate-truck-status {
+    font-weight: bold;
+    color: #005F2D;
+}
+
+.allocate-truck-assign-btn {
+    width: 75px;
+    font-weight: bold;
+    padding: 6px 10px;
+    font-size: 15px;
+    background-color: #007B3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.allocate-truck-assign-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.allocate-truck-assign-btn:hover:enabled {
+    background-color: #08ac55;
+}
+
+.allocate-truck-label {
+    color: #007B3D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.allocate-truck-search {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.allocate-truck-error-text {
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .allocate-truck-outer {
+        flex-direction: column;
+    }
+
+    .allocate-truck-inner {
+        padding: 20px;
+    }
+
+    .allocate-truck-input {
+        width: 100%;
+    }
+
+    .allocate-truck-table {
+        font-size: 12px;
+    }
+
+    .allocate-truck-table th,
+    .allocate-truck-table td {
+        padding: 8px;
+    }
+}
