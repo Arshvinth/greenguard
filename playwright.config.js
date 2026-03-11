@@ -1,5 +1,8 @@
 const { defineConfig } = require('@playwright/test');
 
+// Detect if running in GitHub Actions
+const isCI = !!process.env.GITHUB_ACTIONS;
+
 module.exports = defineConfig({
   testDir: './tests',   // 👈 VERY IMPORTANT
 
