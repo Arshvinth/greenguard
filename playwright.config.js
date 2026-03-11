@@ -5,6 +5,7 @@ module.exports = defineConfig({
 
   use: {
     baseURL: 'http://localhost:3000',
-    headless: false,
+     // If running in GitHub Actions, run headless; otherwise show browser
+    headless: isCI ? true : false,
   },
 });
