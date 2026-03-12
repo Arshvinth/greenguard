@@ -79,7 +79,7 @@ function CreateTruckRequests() {
         const today = new Date(getTodayDate());
         const maxDate = new Date(getMaxDate());
         const chosenDate = new Date(selectedDate);
- 
+
         if (chosenDate < today) {
             setDateError("Date cannot be in the past.");
         } else if (chosenDate > maxDate) {
@@ -96,7 +96,7 @@ function CreateTruckRequests() {
             setcapacityError("Capacity cannot be less than 100 Kg.");
         } else if (capacity > 6000) {
             setcapacityError("Capacity cannot exceed 6000 Kg.");
-        
+
         } else {
             setcapacityError(""); // Clear error if valid
         }
@@ -127,8 +127,8 @@ function CreateTruckRequests() {
                         <h2>Create Pickup Schedule</h2>
                         <form onSubmit={sendData}>
                             <label for="requestID">Request ID:</label>
-                            <input type="text" id="requestID" onChange={(e) => setRequestID(e.target.value)}
-                                onBlur={(e) => validateRequestID(e.target.value)} name="requestID" required />.
+                            <input type="text" id="requestID" name="requestID" value={requestID} onChange={(e) => setRequestID(e.target.value)}
+                                onBlur={(e) => validateRequestID(e.target.value)} required />.
                             <div className="hint-message">Enter in format R000 (e.g., R123)</div>
                             {error && <div className="error-message">{error}</div>}
 
@@ -149,9 +149,9 @@ function CreateTruckRequests() {
                             <div className="hint-message">Capacity must be 1000 - 6000Kg</div>
                             {capacityError && <div className="error-message">{capacityError}</div>}
                             <label for="pickupLocation">Pickup Location:</label>
-                            <textarea id="pickupLocation" name="pickupLocation"required></textarea>
+                            <textarea id="pickupLocation" name="pickupLocation" required></textarea>
                             {errors.pickup && <div className="error-message">{errors.pickup}</div>}
-                            
+
                             {errors.destination && <div className="error-message">{errors.destination}</div>}
                             <label for="status">Status:</label>
                             <input type="text" id="status" value={RequestStatus} name="status" />
