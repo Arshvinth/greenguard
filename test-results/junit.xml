@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="11.783353000000002">
+<testsuite name="truckManagement.bdd.spec.js" timestamp="2026-03-14T06:50:56.946Z" hostname="chromium" tests="5" failures="0" skipped="0" time="9.62" errors="0">
+<testcase name="Truck Management (BDD) › Dashboard is visible (@smoke)" classname="truckManagement.bdd.spec.js" time="1.48">
+</testcase>
+<testcase name="Truck Management (BDD) › User loads the Add Truck form (@regression)" classname="truckManagement.bdd.spec.js" time="1.978">
+</testcase>
+<testcase name="Truck Management (BDD) › Truck ID validation message appears for bad ID (@validation)" classname="truckManagement.bdd.spec.js" time="2.216">
+</testcase>
+<testcase name="Truck Management (BDD) › Capacity validation message for out-of-range value (@validation)" classname="truckManagement.bdd.spec.js" time="2.028">
+</testcase>
+<testcase name="Truck Management (BDD) › Successfully adds a truck (@happy-path)" classname="truckManagement.bdd.spec.js" time="1.918">
+</testcase>
+</testsuite>
+</testsuites>

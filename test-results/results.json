@@ -1,0 +1,336 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Public\\Documents\\greenguard\\playwright.config.js",
+    "rootDir": "C:/Users/Public/Documents/greenguard/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Public/Documents/greenguard/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Public/Documents/greenguard/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "truckManagement.bdd.spec.js",
+      "file": "truckManagement.bdd.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Truck Management (BDD)",
+          "file": "truckManagement.bdd.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Dashboard is visible (@smoke)",
+              "ok": true,
+              "tags": [
+                "smoke)"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1480,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Given I am on the Truck Dashboard",
+                          "duration": 93
+                        },
+                        {
+                          "title": "Then I see the Truck Manager heading",
+                          "duration": 14
+                        }
+                      ],
+                      "startTime": "2026-03-14T06:50:58.132Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "239509fb69b5e04de58c-839d78d34fee5da6557b",
+              "file": "truckManagement.bdd.spec.js",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "User loads the Add Truck form (@regression)",
+              "ok": true,
+              "tags": [
+                "regression)"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1978,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Given I open the Add Truck page",
+                          "duration": 331
+                        },
+                        {
+                          "title": "Then the Registration Number field is visible",
+                          "duration": 45
+                        }
+                      ],
+                      "startTime": "2026-03-14T06:50:59.775Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "239509fb69b5e04de58c-ca565a018a354fa3b2d6",
+              "file": "truckManagement.bdd.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "Truck ID validation message appears for bad ID (@validation)",
+              "ok": true,
+              "tags": [
+                "validation)"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2216,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "When I enter an invalid registration",
+                          "duration": 93
+                        },
+                        {
+                          "title": "Then I should see the invalid format error",
+                          "duration": 20
+                        }
+                      ],
+                      "startTime": "2026-03-14T06:51:01.784Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "239509fb69b5e04de58c-9e26deb471d90aefe38a",
+              "file": "truckManagement.bdd.spec.js",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "Capacity validation message for out-of-range value (@validation)",
+              "ok": true,
+              "tags": [
+                "validation)"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2028,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "When I enter capacity below range",
+                          "duration": 87
+                        },
+                        {
+                          "title": "Then I see the capacity range error",
+                          "duration": 14
+                        }
+                      ],
+                      "startTime": "2026-03-14T06:51:04.021Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "239509fb69b5e04de58c-c2c3737f2cf85f0197c7",
+              "file": "truckManagement.bdd.spec.js",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "Successfully adds a truck (@happy-path)",
+              "ok": true,
+              "tags": [
+                "happy-path)"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1918,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "When I fill valid truck details",
+                          "duration": 179
+                        },
+                        {
+                          "title": "And I submit the form",
+                          "duration": 196
+                        },
+                        {
+                          "title": "Then I am redirected to the truck dashboard",
+                          "duration": 61
+                        }
+                      ],
+                      "startTime": "2026-03-14T06:51:06.063Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "239509fb69b5e04de58c-ffc8c679dbe1b48342e2",
+              "file": "truckManagement.bdd.spec.js",
+              "line": 52,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-14T06:50:56.865Z",
+    "duration": 11783.353000000001,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
