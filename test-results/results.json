@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -73,6 +73,228 @@
   },
   "suites": [
     {
+      "title": "addTruckAssertions.spec.js",
+      "file": "addTruckAssertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Truck Management Tests",
+          "file": "addTruckAssertions.spec.js",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Truck Dashboard loads correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1977,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Opening application...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-14T07:33:58.478Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e37a5399efc200a631f-e835552767ebf339e11c",
+              "file": "addTruckAssertions.spec.js",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Add Truck page loads",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3995,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Opening application...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-14T07:34:00.677Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e37a5399efc200a631f-624acd89be7478c4be1a",
+              "file": "addTruckAssertions.spec.js",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "Truck ID validation works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2174,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Opening application...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-14T07:34:04.690Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e37a5399efc200a631f-691a68184fb6abefd7c1",
+              "file": "addTruckAssertions.spec.js",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "Capacity validation works",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1589,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Opening application...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-14T07:34:06.878Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e37a5399efc200a631f-947fd2bdfef81f500e01",
+              "file": "addTruckAssertions.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "Add truck form submission",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1632,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Opening application...\n"
+                        },
+                        {
+                          "text": "Test finished\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-14T07:34:08.477Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8e37a5399efc200a631f-02f788d5687dd2ef5dfc",
+              "file": "addTruckAssertions.spec.js",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "truckManagement.bdd.spec.js",
       "file": "truckManagement.bdd.spec.js",
       "column": 0,
@@ -100,10 +322,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1480,
+                      "duration": 1388,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -111,14 +333,14 @@
                       "steps": [
                         {
                           "title": "Given I am on the Truck Dashboard",
-                          "duration": 93
+                          "duration": 114
                         },
                         {
                           "title": "Then I see the Truck Manager heading",
-                          "duration": 14
+                          "duration": 20
                         }
                       ],
-                      "startTime": "2026-03-14T06:50:58.132Z",
+                      "startTime": "2026-03-14T07:33:58.513Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -146,10 +368,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1978,
+                      "duration": 2091,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -157,14 +379,14 @@
                       "steps": [
                         {
                           "title": "Given I open the Add Truck page",
-                          "duration": 331
+                          "duration": 330
                         },
                         {
                           "title": "Then the Registration Number field is visible",
-                          "duration": 45
+                          "duration": 49
                         }
                       ],
-                      "startTime": "2026-03-14T06:50:59.775Z",
+                      "startTime": "2026-03-14T07:34:00.138Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -192,10 +414,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2216,
+                      "duration": 2107,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -203,14 +425,14 @@
                       "steps": [
                         {
                           "title": "When I enter an invalid registration",
-                          "duration": 93
+                          "duration": 100
                         },
                         {
                           "title": "Then I should see the invalid format error",
-                          "duration": 20
+                          "duration": 14
                         }
                       ],
-                      "startTime": "2026-03-14T06:51:01.784Z",
+                      "startTime": "2026-03-14T07:34:02.253Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -238,10 +460,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 2028,
+                      "duration": 2285,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -249,14 +471,14 @@
                       "steps": [
                         {
                           "title": "When I enter capacity below range",
-                          "duration": 87
+                          "duration": 127
                         },
                         {
                           "title": "Then I see the capacity range error",
-                          "duration": 14
+                          "duration": 27
                         }
                       ],
-                      "startTime": "2026-03-14T06:51:04.021Z",
+                      "startTime": "2026-03-14T07:34:04.385Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -284,10 +506,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1918,
+                      "duration": 1964,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -295,18 +517,18 @@
                       "steps": [
                         {
                           "title": "When I fill valid truck details",
-                          "duration": 179
+                          "duration": 232
                         },
                         {
                           "title": "And I submit the form",
-                          "duration": 196
+                          "duration": 204
                         },
                         {
                           "title": "Then I am redirected to the truck dashboard",
-                          "duration": 61
+                          "duration": 71
                         }
                       ],
-                      "startTime": "2026-03-14T06:51:06.063Z",
+                      "startTime": "2026-03-14T07:34:06.685Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -326,9 +548,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-14T06:50:56.865Z",
-    "duration": 11783.353000000001,
-    "expected": 5,
+    "startTime": "2026-03-14T07:33:57.227Z",
+    "duration": 13509.411,
+    "expected": 10,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
